@@ -74,5 +74,11 @@ you can download the arc_plot and try it with this network ram disk prototype. i
 please submit your benchmark by a github ticket 
 
 
+4. arc_plot still under constrution, but there was some POC video with more details.
+
+https://www.youtube.com/watch?v=CfmZbIM17ZQ&t=87s
+
+
+-----------------------------------------------------------------------------------------------------------
 
 ARC_PLOT is freeware and if you like this idea and love the arc_plot freeware, please don't forget donoate some XCH to support this project.
