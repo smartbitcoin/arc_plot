@@ -44,7 +44,7 @@ install nbd package.
 sudo apt install nbd-client
 sudo modprobe nbd
 ```
-then you can new virtual blocking device in /dev/nbd0-15
+then you can see virtual blocking device in /dev/nbd0-15
 mount remote ram disk into plotting pc
 ```
 sudo nbd-client -b 4096 -C 2 NRD_PC_1_IP 11111 /dev/nbd0
@@ -58,7 +58,7 @@ mount nbd raid into your plotting path.
 ```
 sudo mount /dev/nbd0 /your_plotting_ramdisk_path
 ```
-add permission to this need ram disk
+add permission to this ram disk
 ```
 sudo chown -R your_id /your_plotting_ramdisk_path
 ```
@@ -74,6 +74,7 @@ you can download the arc_plot and try it with this network ram disk prototype. i
 please submit your benchmark by a github ticket 
 
 arc_plot alpha0 for ubuntu 22.04 download link:
+
 https://github.com/smartbitcoin/arc_plot/releases/download/alpha0/arc_plot.alpha.ubuntu22.04.tar.bz2
 
 
