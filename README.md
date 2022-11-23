@@ -73,6 +73,9 @@ then you can start happy plotting lol
 you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
 
+arc_plot alpha0 for ubuntu 22.04 download link:
+https://github.com/smartbitcoin/arc_plot/releases/download/alpha0/arc_plot.alpha.ubuntu22.04.tar.bz2
+
 
 4. arc_plot still under constrution, but there was some POC video with more details.
 
@@ -80,5 +83,7 @@ https://www.youtube.com/watch?v=CfmZbIM17ZQ&t=87s
 
 
 -----------------------------------------------------------------------------------------------------------
+
+Special thanks to MadMax and Bladebit as arc_plot learned lots of good design from them and here show highly respect for these complicated project and pioneer's hardwork.
 
 ARC_PLOT is freeware and if you like this idea and love the arc_plot freeware, please don't forget donoate some XCH to support this project.
