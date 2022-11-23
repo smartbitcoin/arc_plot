@@ -19,12 +19,60 @@ Plotting pc connecting to NRD with thunderbolt 4 or 10G nic, running ethernet ne
 -----------------------------------------------------------------------------------------------------------
 2. Plot setup.
 
+a) prepare NRD pc.
+install ubuntu 22.04 minimum server installation.
+install nbd package.
+```
+sudo apt install nbd-server
+```
+create virtual ram disk and mount into /mnt
+```
+sudo mount -t tmpfs -o size=126G tmpfs /mnt
+cd /mnt/
+fallocate -l 126G ram 
+chmod 777 ram
+```
+start nbd server, export /mnt/ram as remote block device on port 11111
+```
+sudo nbd-server 11111 /mnt/ram
+```
 
+b) prepare plotting pc.
+install ubuntu 22.04 minimum server installation.
+install nbd package.
+```
+sudo apt install nbd-client
+sudo modprobe nbd
+```
+then you can new virtual blocking device in /dev/nbd0-15
+mount remote ram disk into plotting pc
+```
+sudo nbd-client -b 4096 -C 2 NRD_PC_1_IP 11111 /dev/nbd0
+sudo nbd-client -b 4096 -C 2 NRD_PC_2_IP 11111 /dev/nbd1
+```
+create a ram disk raid0 by btrfs
+```
+sudo mkfs.btrfs -n 64k -m raid0 -d raid0 /dev/nbd0 /dev/nbd1 -f
+```
+mount nbd raid into your plotting path.
+```
+sudo mount /dev/nbd0 /your_plotting_ramdisk_path
+```
+add permission to this need ram disk
+```
+sudo chown -R your_id /your_plotting_ramdisk_path
+```
 
+all done.
+
+then you can start happy plotting lol
 
 -----------------------------------------------------------------------------------------------------------
 3. Benchmark.
 
+you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
+please submit your benchmark by a github ticket 
 
 
-ARC_PLOT is freeware and welcome donoation.
+
+ARC_PLOT is freeware and if you like this idea and love the arc_plot freeware, please don't forget donoate some XCH to support this project.
