@@ -91,4 +91,6 @@ https://www.youtube.com/watch?v=CfmZbIM17ZQ&t=87s
 
 Special thanks to MadMax and Bladebit as arc_plot learned lots of good design from them and here show highly respect for these complicated project and pioneer's hardwork.
 
-ARC_PLOT is freeware and if you like this idea and love the arc_plot freeware, please don't forget donoate some XCH to support this project.
+ARC_PLOT is freeware and if you like this idea and love the arc_plot freeware, please don't forget donate some XCH to support this project.
+
+xch12qge50ttf5c6lcx7at3295q92wndfapyuvr920j88zdnfqzc8ggqaja0dn
