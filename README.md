@@ -77,6 +77,10 @@ arc_plot alpha0 for ubuntu 22.04 download link:
 
 https://github.com/smartbitcoin/arc_plot/releases/download/alpha0/arc_plot.alpha.ubuntu22.04.tar.bz2
 
+a benchmark can be also found in wiki:
+
+https://github.com/smartbitcoin/arc_plot/wiki
+
 
 4. arc_plot still under constrution, but there was some POC video with more details.
 
