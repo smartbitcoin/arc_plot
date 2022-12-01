@@ -1,74 +1,23 @@
 # ARC_PLOT
-First GPU plotter focus on Consumer hardware, with Network Ram Disk setup.
+First CPU + GPU plotter focus on Consumer hardware, with various topology.
 
 vision:
 Plotting should be green use less engery, cheap or spare haredware.
-ARC_PLOT is unique as it's the first plotter which take GPU and NetworkRamDisk( NRD ) to plotting community.
+ARC_PLOT is unique as it's the first plotter which support CPU + GPU plotting.
 
 -----------------------------------------------------------------------------------------------------------
 1. Plot architecture.
 
-As a full ram based green plotter, arc_plot can be deployed as a cluster topology. there are two major component, the high-end plotting PC and the low end network ram disk (NRD) pc.
-For high end plotting PC, more core and high freq ram is prefered. For NRD pc, 2 or 4 core , cheap ddr3 or 4 ram 128G to 256G preferred.
+Arc_plot can run in differrent topology.
+a.) standalone 32G ram + 256 SSD
+b.) standalone with 128G ram + 128G ssd
+c.) NRD 128G x2 pc + standalone 32G ram.
+d.) combine with GPU in standalone plotter.
 
-![Screenshot from 2022-11-22 23-39-14](https://user-images.githubusercontent.com/5984485/203470336-9b3a14c5-f970-41c8-a359-e5fdb3e5e9eb.png)
-
-Plotting pc connecting to NRD with thunderbolt 4 or 10G nic, running ethernet network. Plotting PC mount remote ram disk as a network blocking devices. and multiple those devices was build a raid0.
-
-
------------------------------------------------------------------------------------------------------------
-2. Plot setup.
-
-a) prepare NRD pc.
-install ubuntu 22.04 minimum server installation.
-install nbd package.
-```
-sudo apt install nbd-server
-```
-create virtual ram disk and mount into /mnt
-```
-sudo mount -t tmpfs -o size=126G tmpfs /mnt
-cd /mnt/
-fallocate -l 126G ram 
-chmod 777 ram
-```
-start nbd server, export /mnt/ram as remote block device on port 11111
-```
-sudo nbd-server 11111 /mnt/ram
-```
-
-b) prepare plotting pc.
-install ubuntu 22.04 minimum server installation.
-install nbd package.
-```
-sudo apt install nbd-client
-sudo modprobe nbd
-```
-then you can see virtual blocking device in /dev/nbd0-15
-mount remote ram disk into plotting pc
-```
-sudo nbd-client -b 4096 -C 2 NRD_PC_1_IP 11111 /dev/nbd0
-sudo nbd-client -b 4096 -C 2 NRD_PC_2_IP 11111 /dev/nbd1
-```
-create a ram disk raid0 by btrfs
-```
-sudo mkfs.btrfs -n 64k -m raid0 -d raid0 /dev/nbd0 /dev/nbd1 -f
-```
-mount nbd raid into your plotting path.
-```
-sudo mount /dev/nbd0 /your_plotting_ramdisk_path
-```
-add permission to this ram disk
-```
-sudo chown -R your_id /your_plotting_ramdisk_path
-```
-
-all done.
-
-then you can start happy plotting lol
+please check wiki for details.
 
 -----------------------------------------------------------------------------------------------------------
-3. Benchmark.
+2. Benchmark.
 
 you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
@@ -82,7 +31,7 @@ a benchmark can be also found in wiki:
 https://github.com/smartbitcoin/arc_plot/wiki
 
 
-4. arc_plot still under constrution, but there was some POC video with more details.
+3. arc_plot still under constrution, but there was some POC video with more details.
 
 https://www.youtube.com/watch?v=CfmZbIM17ZQ&t=87s
 
