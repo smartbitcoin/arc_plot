@@ -26,9 +26,9 @@ please check wiki for details.
 you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
 
-arc_plot alpha0 for ubuntu 22.04 download link:
+arc_plot 0.5 for ubuntu 22.04 download link:
 
-https://github.com/smartbitcoin/arc_plot/releases/download/alpha0/arc_plot.alpha.ubuntu22.04.tar.bz2
+https://github.com/smartbitcoin/arc_plot/blob/main/arc_plot.0.5.ubuntu22.04.tar.bz2
 
 a benchmark can be also found in wiki:
 
