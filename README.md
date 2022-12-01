@@ -9,9 +9,13 @@ ARC_PLOT is unique as it's the first plotter which support CPU + GPU plotting.
 1. Plot architecture.
 
 Arc_plot can run in differrent topology.
+
 a.) standalone 32G ram + 256 SSD
+
 b.) standalone with 128G ram + 128G ssd
+
 c.) NRD 128G x2 pc + standalone 32G ram.
+
 d.) combine with GPU in standalone plotter.
 
 please check wiki for details.
