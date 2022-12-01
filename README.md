@@ -30,6 +30,10 @@ arc_plot 0.5 for ubuntu 22.04 download link:
 
 https://github.com/smartbitcoin/arc_plot/blob/main/arc_plot.0.5.ubuntu22.04.tar.bz2
 
+windows user please check:
+
+https://github.com/smartbitcoin/arc_plot/wiki/arc_plot-windows-wsl-guide.
+
 a benchmark can be also found in wiki:
 
 https://github.com/smartbitcoin/arc_plot/wiki
