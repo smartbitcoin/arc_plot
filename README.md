@@ -46,11 +46,11 @@ ubuntu 22.04.
 you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
 
-arc_plot 0.5 for ubuntu 22.04 download link:
+arc_plot 0.6 for ubuntu 22.04 download link:
 
-https://github.com/smartbitcoin/arc_plot/blob/main/arc_plot.0.5.ubuntu22.04.tar.bz2
+https://github.com/smartbitcoin/arc_plot/blob/main/arc_plot.0.6.ubuntu22.04.tar.bz2
 
-windows user please check:
+windows user please check: ( not sure how wsl support gpu though.)
 
 https://github.com/smartbitcoin/arc_plot/wiki/arc_plot-windows-wsl-guide.
 
@@ -58,6 +58,7 @@ a benchmark can be also found in wiki:
 
 https://github.com/smartbitcoin/arc_plot/wiki
 
+briefly compare speed of gpu vs cpu.  rtx 3090 = 2 x i9 13900kf for phase1.
 
 4. arc_plot still under constrution, but there was some POC video with more details.
 
