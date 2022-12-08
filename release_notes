@@ -1,0 +1,12 @@
+Current version limitations:
+a.) only support 1 gpu
+b.) need fast ssd. ( if ssd was QLC , it need fstrim again after plot done to avoid ``` fwrite() failed with: Bad address``` errors.
+
+---------------------------------------------------------------------------------
+release v0.6
+add "-G" for gpu phase 1 plotting.
+
+---------------------------------------------------------------------------------
+release v0.5
+new algorithm implementation.
+add "-R" for 110G ram plotting without ram disk. it plotting directly in ram by bypass the filesystem api. some performance gain.
