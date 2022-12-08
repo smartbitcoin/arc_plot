@@ -2,6 +2,13 @@ Current version limitations:
 a.) only support 1 gpu
 b.) need fast ssd. ( if ssd was QLC , it need fstrim again after plot done to avoid ``` fwrite() failed with: Bad address``` errors.
 c.) ram require 110G free at least. so make sure you have enough swap file setup incase system out of memory crash.
+d.) need 32G swap file.
+e.) compressing phase still running in CPU code.
+
+---------------------------------------------------------------------------------
+release v0.6.1
+a.) add cpu support which without avx2 instruction set.
+b.) move p1 tmp table6 into ram for some slow ssd write_failed() error.
 
 ---------------------------------------------------------------------------------
 release v0.6
