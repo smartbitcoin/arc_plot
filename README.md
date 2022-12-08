@@ -21,7 +21,26 @@ d.) combine with GPU in standalone plotter.
 please check wiki for details.
 
 -----------------------------------------------------------------------------------------------------------
-2. Benchmark.
+2. Release notes.
+v0.5 Add "-R" mode, which is full 110G ram plotting without ram disk.
+
+v0.6 Add "-G" mode, which is GPU plotting for phase1.
+
+GPU plotting how to:
+
+requirements:
+
+hardware:
+
+6 core cpu with 128G ram,  nvidia 10 series plus GPU with 8G vram. 
+
+Software:
+
+ubuntu 22.04.
+
+
+-----------------------------------------------------------------------------------------------------------
+3. Benchmark.
 
 you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
@@ -39,7 +58,7 @@ a benchmark can be also found in wiki:
 https://github.com/smartbitcoin/arc_plot/wiki
 
 
-3. arc_plot still under constrution, but there was some POC video with more details.
+4. arc_plot still under constrution, but there was some POC video with more details.
 
 https://www.youtube.com/watch?v=CfmZbIM17ZQ&t=87s
 
