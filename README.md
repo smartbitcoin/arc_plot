@@ -33,7 +33,7 @@ GPU plotting requirements:
 
 hardware:
 
-6 core cpu with 128G ram,  nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 8G+ vram. 
+4 core x86 cpu with pci-e 3.0 x16 bus, 128G ram,  nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 8G+ vram. 
 
 Software:
 
