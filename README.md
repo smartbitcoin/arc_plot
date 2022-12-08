@@ -43,7 +43,7 @@ ubuntu 22.04.
 -----------------------------------------------------------------------------------------------------------
 3. Benchmark.
 
-you can download the arc_plot and try it with this network ram disk prototype. it's still alpha, but your feedback is very valuable.
+you can download the arc_plot and try it with GPU for phase1. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
 
 arc_plot 0.6 for ubuntu 22.04 download link:
