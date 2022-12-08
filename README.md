@@ -27,6 +27,9 @@ v0.6.1 Add "-G" mode, which using GPU to plotting phase1.
 
 next release feature: add GPU algo for compressing phase.
 
+more details please check: 
+https://github.com/smartbitcoin/arc_plot/blob/main/release_notes
+
 GPU plotting requirements:
 
 hardware:
