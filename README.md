@@ -33,7 +33,10 @@ GPU plotting requirements:
 
 hardware:
 
-4 core x86 cpu with pci-e 3.0 x16 bus, 128G ram,  nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 8G+ vram. 
+cpu: 4 core x86 cpu with pci-e 3.0 x16 bus
+ram: 128G ram
+gpu: nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 8G+ vram. 
+ssd: MLC or TLC with good continuous sequence R/S speed. ( found some QLC ssd will have fwrite() error after few run.)
 
 Software:
 
