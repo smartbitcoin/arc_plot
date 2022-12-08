@@ -23,9 +23,7 @@ please check wiki for details.
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
 
-v0.5 Add "-R" mode, which is full 110G ram plotting without ram disk.
-
-v0.6 Add "-G" mode, which using GPU to plotting phase1.
+v0.6.1 Add "-G" mode, which using GPU to plotting phase1.
 
 next release feature: add GPU algo for compressing phase.
 
@@ -52,9 +50,9 @@ ubuntu 22.04.
 you can download the arc_plot and try it with GPU for phase1. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
 
-arc_plot 0.6 for ubuntu 22.04 download link:
+arc_plot 0.6.1 for ubuntu 22.04 download link:
 
-https://github.com/smartbitcoin/arc_plot/blob/main/arc_plot.0.6.ubuntu22.04.tar.bz2
+[https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.ubuntu22.04.tar.bz2](https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.1.ubuntu22.04.tar.bz2)
 
 windows user please check: ( not sure how wsl support gpu though.)
 
