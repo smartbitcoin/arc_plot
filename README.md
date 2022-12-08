@@ -22,13 +22,14 @@ please check wiki for details.
 
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
+
 v0.5 Add "-R" mode, which is full 110G ram plotting without ram disk.
 
-v0.6 Add "-G" mode, which is GPU plotting for phase1.
+v0.6 Add "-G" mode, which using GPU to plotting phase1.
 
-GPU plotting how to:
+next release feature: add GPU algo for compressing phase.
 
-requirements:
+GPU plotting requirements:
 
 hardware:
 
