@@ -1,24 +1,30 @@
 # ARC_PLOT
-First CPU + GPU plotter focus on Consumer hardware, with various topology.
-
-vision:
-Plotting should be green use less engery, cheap or spare haredware.
-ARC_PLOT is unique as it's the first plotter which support CPU + GPU plotting.
+CPU + GPU plotter.
 
 -----------------------------------------------------------------------------------------------------------
-1. Plot architecture.
-
-Arc_plot can run in differrent topology.
+1. Plotter setup:
 
 a.) standalone 32G ram + 256 SSD
 
-b.) standalone with 128G ram + 128G ssd
+b.) standalone 128G ram + 128G ssd
 
-c.) NRD 128G x2 pc + standalone 32G ram.
+c.) local 32G ram + NRD disk 128G x2 pc 
 
-d.) combine with GPU in standalone plotter.
+d.) 128G cpu + 8G vram GPU.
 
-please check wiki for details.
+How to run:
+get help:
+./arc_plot --help
+
+run:
+cpu: 32G + SSD
+./arc_plot -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
+
+cpu:110G
+./arc_plot -R cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
+
+cpu+gpu: 110G
+./arc_plot -G -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
 
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
@@ -50,7 +56,6 @@ ubuntu 22.04.
 -----------------------------------------------------------------------------------------------------------
 3. Benchmark.
 
-you can download the arc_plot and try it with GPU for phase1. it's still alpha, but your feedback is very valuable.
 please submit your benchmark by a github ticket 
 
 arc_plot 0.6.1 for ubuntu 22.04 download link:
