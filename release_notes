@@ -8,8 +8,8 @@ c.) ram require 110G free at least. so make sure you have enough swap file setup
 e.) only partial compressing phase running in CPU code.
 
 ---------------------------------------------------------------------------------
-release v0.6.2 : 
-md5 6db8566d790086a6b298d576b013e7a8
+release v0.6.2.1 : 
+md5 0a27804f2775d0b6e9695f18be23aea1
 a.) partial gpu accelerated compressing phase implemented. compressing phase redue 40% time.
 b.) memory usage turning , can be run in 128G ram without swap file.
 c.) static link libstdc++ for running on rocky linux 9.1 and other linux distribution with gcc 11+ compiler.
