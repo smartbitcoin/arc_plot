@@ -1,6 +1,7 @@
 # ARC_PLOT
 CPU + GPU plotter.
 
+MileStone in v0.6.2 : first time a PC plotter can be less than 10 mins  with gpu acceleration.!
 -----------------------------------------------------------------------------------------------------------
 1. Plotter setup:
 
