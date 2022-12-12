@@ -8,6 +8,11 @@ c.) ram require 110G free at least. so make sure you have enough swap file setup
 e.) only partial compressing phase running in CPU code.
 
 ---------------------------------------------------------------------------------
+release v0.6.3 : 
+md5: e5a952759b93df447b8f59bbe043a6b1
+a.) table7 compressing in gpu. minor performance improve.
+
+---------------------------------------------------------------------------------
 release v0.6.2.1 : 
 md5 0a27804f2775d0b6e9695f18be23aea1
 a.) partial gpu accelerated compressing phase implemented. compressing phase redue 40% time.
