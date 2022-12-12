@@ -59,7 +59,7 @@ ubuntu 22.04.
 
 please submit your benchmark by a github ticket 
 
-arc_plot 0.6.1 for ubuntu 22.04 download link:
+arc_plot 0.6.2 for ubuntu 22.04 download link:
 
 [https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.2.1.ubuntu22.04.tar.bz2](https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.2.1.ubuntu22.04.tar.bz2)
 
