@@ -47,7 +47,7 @@ ram: *128G ram*
 
 gpu: *nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 8G+ vram.*
 
-ssd: *MLC or TLC with good continuous sequence R/S speed. ( found some QLC ssd will have fwrite() error if speed lag thd GPU too much.) and ramdisk for tmp1 folder prefered if you have more ram or config at least 32G swap file*
+ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. ( found some SSD have fwrite() error if speed lag thd GPU too much.) 
 
 Software:
 
