@@ -1,7 +1,6 @@
 # ARC_PLOT
 CPU + GPU plotter.
 
-MileStone in v0.6.2 : first time a PC plotter can be less than 10 mins  with gpu acceleration.!
 -----------------------------------------------------------------------------------------------------------
 1. Plotter setup:
 
@@ -30,7 +29,7 @@ cpu+gpu: 110G
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
 
-v0.6.2 partial gpu compressing phase implemented. compressing phase time reduce 50%.
+v0.6.3 partial gpu compressing phase implemented. compressing phase time reduce 50%.
 
 next release feature: add GPU algo for compressing phase.
 
@@ -61,7 +60,7 @@ please submit your benchmark by a github ticket
 
 arc_plot 0.6.2 for ubuntu 22.04 download link:
 
-[https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.2.1.ubuntu22.04.tar.bz2](https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.2.1.ubuntu22.04.tar.bz2)
+[https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.3.ubuntu22.04.tar.bz2](https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.3.ubuntu22.04.tar.bz2)
 
 windows user please check: ( not sure how wsl support gpu though.)
 
