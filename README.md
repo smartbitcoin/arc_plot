@@ -17,19 +17,28 @@ get help:
 ./arc_plot --help
 
 cpu: 32G + SSD
+```
 ./arc_plot -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
+```
 
 cpu:110G
-./arc_plot -R -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
-
+```
+./arc_plot -R ...
+```
 GPU: default setting
-./arc_plot -G -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
-
+```
+./arc_plot -G ...
+```
 GPU: using gpu 1 instead of default 0, when you have mutiple GPU on board.
+```
 ./arc_plot -G --gpuid "1" ...
+```
 
 GPU: using 5 gpu context threads for 12G gpu
+```
 ./arc_plot -G --gthreads 5 ...
+```
+<sup> above example with short parameters require apend ```-r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key``` at the end.</sup> 
 
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
