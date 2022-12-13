@@ -9,6 +9,7 @@ e.) only partial compressing phase running in CPU code.
 
 ---------------------------------------------------------------------------------
 release v0.6.4 : 
+md5: 6aa5c223631df30a2225add9b0ae5468
 a.) Add "--gthreads" parameter. which define how many gpu context threads for plotting.  every gpu context thread use centain amount of gpu vram resource. eg 8G vram good for 3 thread. If you only have 4G vram, set it to gthreads=1 will works too.
 b.) Add "--gpuid" parameter, which can pick specific gpu if you have multiple. you can run too gpu plotter in parallel, but don't set two gpu into one ploter, which is not implemented yet.
 c.) minor turning in plotting phase, 5% faster.
