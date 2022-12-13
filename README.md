@@ -10,7 +10,7 @@ b.) standalone 128G ram + 128G ssd
 
 c.) local 32G ram + NRD disk 128G x2 pc 
 
-d.) 128G cpu + 8G vram GPU.
+d.) 128G cpu + 4G+ vram GPU.
 
 How to run:
 get help:
