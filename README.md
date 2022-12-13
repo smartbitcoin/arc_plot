@@ -16,15 +16,20 @@ How to run:
 get help:
 ./arc_plot --help
 
-run:
 cpu: 32G + SSD
 ./arc_plot -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
 
 cpu:110G
 ./arc_plot -R -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
 
-cpu+gpu: 110G
+GPU: default setting
 ./arc_plot -G -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
+
+GPU: using gpu 1 instead of default 0, when you have mutiple GPU on board.
+./arc_plot -G --gpuid "1" ...
+
+GPU: using 5 gpu context threads for 12G gpu
+./arc_plot -G --gthreads 5 ...
 
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
@@ -44,7 +49,7 @@ cpu: *4 core x86 cpu with pci-e 3.0 x16 bus*
 
 ram: *128G ram*
 
-gpu: *nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 8G+ vram.*
+gpu: *nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 4G+ vram.*
 
 ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. ( found some SSD have fwrite() error if speed lag thd GPU too much.) 
 
