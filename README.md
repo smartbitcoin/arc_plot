@@ -13,36 +13,26 @@ c.) local 32G ram + NRD disk 128G x2 pc
 d.) 128G cpu + 4G+ vram GPU.
 
 How to run:
-get help:
-./arc_plot --help
 
-cpu: 32G + SSD
-```
-./arc_plot -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key
-```
+get help:  ```./arc_plot --help```
 
-cpu:110G
-```
-./arc_plot -R ...
-```
-GPU: default setting
-```
-./arc_plot -G ...
-```
-GPU: using gpu 1 instead of default 0, when you have mutiple GPU on board.
-```
-./arc_plot -G --gpuid "1" ...
-```
+cpu: 32G + SSD  ```./arc_plot -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key```
 
-GPU: using 5 gpu context threads for 12G gpu
-```
-./arc_plot -G --gthreads 5 ...
-```
+cpu:110G  ```./arc_plot -R ...```
+
+GPU: default setting ```./arc_plot -G ...```
+
+GPU: using gpu 1 instead of default 0, when you have mutiple GPU on board.   ```./arc_plot -G --gpuid "1" ...```
+
+GPU: using 5 gpu context threads for 12G gpu   ```./arc_plot -G --gthreads 5 ...```
+
 <sup> above example with short parameters require apend ```-r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key``` at the end.</sup> 
 
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
+
 please check: 
+
 https://github.com/smartbitcoin/arc_plot/blob/main/release_notes
 
 
