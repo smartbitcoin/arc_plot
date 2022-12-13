@@ -60,7 +60,7 @@ ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. 
 
 Software:
 
-ubuntu 22.04. ( or any linux distritution with kernel compiled by gcc11 )
+ubuntu 22.04. ( or any linux distribution with kernel compiled by gcc11 )
 
 
 -----------------------------------------------------------------------------------------------------------
