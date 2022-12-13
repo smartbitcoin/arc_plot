@@ -42,19 +42,15 @@ GPU: using 5 gpu context threads for 12G gpu
 
 -----------------------------------------------------------------------------------------------------------
 2. Release notes.
-
-v0.6.3 partial gpu compressing phase implemented. compressing phase time reduce 50%.
-
-next release feature: add GPU algo for compressing phase.
-
-more details please check: 
+please check: 
 https://github.com/smartbitcoin/arc_plot/blob/main/release_notes
+
 
 GPU plotting requirements:
 
 hardware:
 
-cpu: *4 core x86 cpu with pci-e 3.0 x16 bus*
+cpu: *64bit x86 cpu with pci-e 3.0 x16 bus*
 
 ram: *128G ram*
 
@@ -64,7 +60,7 @@ ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. 
 
 Software:
 
-ubuntu 22.04.
+ubuntu 22.04. ( or any linux distritution with kernel compiled by gcc11 )
 
 
 -----------------------------------------------------------------------------------------------------------
