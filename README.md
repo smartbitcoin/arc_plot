@@ -22,7 +22,7 @@ cpu:110G  ```./arc_plot -R ...```
 
 GPU: default setting ```./arc_plot -G ...```
 
-GPU: using gpu 1 instead of default 0, when you have mutiple GPU on board.   ```./arc_plot -G --gpuid "1" ...```
+GPU: using multiple gpu like gpu 0,1,2,3   ```./arc_plot -G --gpuid "0123" ...```
 
 GPU: using 5 gpu context threads for 12G gpu   ```./arc_plot -G --gthreads 5 ...```
 
@@ -44,7 +44,7 @@ cpu: *64bit x86 cpu with pci-e 3.0 x16 bus*
 
 ram: *128G ram*
 
-gpu: *nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 4G+ vram.*
+gpu: *nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 4G+ vram,  support up to 8 GPUs.*
 
 ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. ( found some SSD have fwrite() error if speed lag thd GPU too much.) 
 
