@@ -8,8 +8,16 @@ c.) compressing phase GPU utilization is low.
 
 ---------------------------------------------------------------------------------
 release v0.6.5 : 
-md5:
+md5: 1d322c6d336f91aa0bea161fc2de718d
 a.) Support multiple GPU plotting, max to 8 GPU.
+use first gpu 
+```--gpuid "0"```
+
+use second gpu
+```--gpuid "1"```
+
+use gpu from 0 to 3
+```--gpuid "0123"```
 
 ---------------------------------------------------------------------------------
 release v0.6.4 : 
