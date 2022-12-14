@@ -2,10 +2,14 @@ Current version
 cpu plotting is production ready.
 
 gpu plotting limitations:
-a.) only support 1 gpu
-b.) need fast ssd. ( if ssd was QLC , it need fstrim again after plot done to avoid ``` fwrite() failed with: Bad address``` errors.
-c.) ram require 110G free at least. so make sure you have enough swap file setup incase system out of memory crash.
-e.) only partial compressing phase running in CPU code.
+a.) need fast ssd. ( if ssd was QLC , it need fstrim again after plot done to avoid ``` fwrite() failed with: Bad address``` errors.
+b.) ram require 110G free at least. so make sure you have enough swap file setup incase system out of memory crash.
+c.) compressing phase GPU utilization is low.
+
+---------------------------------------------------------------------------------
+release v0.6.5 : 
+md5:
+a.) Support multiple GPU plotting, max to 8 GPU.
 
 ---------------------------------------------------------------------------------
 release v0.6.4 : 
