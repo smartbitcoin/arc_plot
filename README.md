@@ -58,9 +58,9 @@ ubuntu 22.04. ( or any linux distribution with kernel compiled by gcc11 )
 
 please submit your benchmark by a github ticket 
 
-arc_plot 0.6.2 for ubuntu 22.04 download link:
+arc_plot 0.6.5 for ubuntu 22.04 download link:
 
-[https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.3.ubuntu22.04.tar.bz2](https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.3.ubuntu22.04.tar.bz2)
+[https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.5.ubuntu22.04.tar.bz2](https://github.com/smartbitcoin/arc_plot/raw/main/arc_plot.0.6.5.ubuntu22.04.tar.bz2)
 
 windows user please check: ( not sure how wsl support gpu though.)
 
