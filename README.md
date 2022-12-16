@@ -46,7 +46,7 @@ ram: *128G ram*
 
 gpu: *nvidia cuda compatibility > 7.5 GPU ( 20 or 30 series) with 4G+ vram,  support up to 8 GPUs.*
 
-ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. ( found some SSD have fwrite() error if speed lag thd GPU too much.) 
+ssd: *MLC or TLC with good continuous sequence R/S speed. QLC should use raid0. ( found some SSD have fwrite() error if speed lag GPU too much.) 
 
 Software:
 
