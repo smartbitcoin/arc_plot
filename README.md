@@ -14,17 +14,23 @@ d.) 128G cpu + 4G+ vram GPU.
 
 How to run:
 
-get help:  ```./arc_plot --help```
+get help:  
+```./arc_plot --help```
 
-cpu: 32G + SSD  ```./arc_plot -r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key```
+cpu: 32G + SSD  
+```./arc_plot -r cpu_core_num ```
 
-cpu:110G  ```./arc_plot -R ...```
+cpu:110G  
+```./arc_plot -R ...```
 
-GPU: default setting ```./arc_plot -G ...```
+GPU: default setting
+```./arc_plot -G ...```
 
-GPU: using multiple gpu like gpu 0,1,2,3   ```./arc_plot -G --gpuid "0123" ...```
+GPU: using multiple gpu like gpu 0,1,2,3   
+```./arc_plot -G --gpuid "0123" ...```
 
-GPU: using 5 gpu context threads for 12G gpu   ```./arc_plot -G --gthreads 5 ...```
+GPU: using 5 gpu context threads for 12G gpu   
+```./arc_plot -G --gthreads 5 ...```
 
 <sup> above example with short parameters require apend ```-r cpu_core_num -n num_of_plots -u 256 -v 256 -t your_ssd_path -d your_distination_path -c your_contract -f your_farm_key``` at the end.</sup> 
 
