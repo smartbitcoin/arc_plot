@@ -4,7 +4,12 @@ cpu plotting is production ready.
 gpu plotting limitations:
 a.) need fast ssd. ( if ssd was QLC , it need fstrim again after plot done to avoid ``` fwrite() failed with: Bad address``` errors.
 b.) ram require 110G free at least. so make sure you have enough swap file setup incase system out of memory crash.
-c.) compressing phase GPU utilization is low.
+c.) compressing phase fully GPU implementation need 24G vram like rtx3090.
+
+---------------------------------------------------------------------------------
+release v0.7 : 
+a.) Add GPU compressing algo for 24G vram gpu like rtx 3090. Performance for 24G gpu increase 40%. ( only support 1 gpu yet.)
+
 
 ---------------------------------------------------------------------------------
 release v0.6.5 : 
