@@ -1,6 +1,9 @@
 # ARC_PLOT
 CPU + GPU plotter.
 
+update:
+v0.7 have performance increase for 24G gpu like rtx 3090. perf increase 40%. best result :  400 sec /plot.
+
 -----------------------------------------------------------------------------------------------------------
 1. Plotter setup:
 
