@@ -5,6 +5,10 @@ update:
 
 v0.7 have performance increase for 24G gpu like rtx 3090. perf increase 40%. best result :  400 sec /plot.
 
+new  Announcements about "compressed plot"
+
+https://github.com/smartbitcoin/arc_plot/discussions/19
+
 -----------------------------------------------------------------------------------------------------------
 1. Plotter setup:
 
@@ -89,7 +93,7 @@ https://www.youtube.com/watch?v=CfmZbIM17ZQ&t=87s
 
 -----------------------------------------------------------------------------------------------------------
 
-Special thanks to MadMax and Bladebit as arc_plot learned lots of good design from them and here show highly respect for these complicated project and pioneer's hardwork.
+Special thanks to Bladebit as arc_plot learned lots of good design from them and here show highly respect for these complicated project and pioneer's hardwork.
 
 ARC_PLOT is freeware and if you like this idea and love the arc_plot freeware, please don't forget donate some XCH to support this project.
 
