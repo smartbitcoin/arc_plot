@@ -7,7 +7,7 @@ v0.7 have performance increase for 24G gpu like rtx 3090. perf increase 40%. bes
 
 new  Announcements about "compressed plot"
 
-https://github.com/smartbitcoin/arc_plot/discussions/19
+[Few facts about "compressed" plot](https://github.com/smartbitcoin/arc_plot/discussions/19)
 
 -----------------------------------------------------------------------------------------------------------
 1. Plotter setup:
